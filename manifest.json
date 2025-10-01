@@ -5,7 +5,7 @@
     "version": "1.0.0",
     "namespace": "HostMetrics",
     "author": "Monzphere",
-    "description": "Adiciona métricas de CPU, Memória e Disco na visualização nativa de hosts",
+    "description": "Adds CPU, Memory, and Disk metrics to the native host views",
     "actions": {
         "hostmetrics.data": {
             "class": "CControllerHostMetricsData",
