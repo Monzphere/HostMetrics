@@ -14,7 +14,7 @@ A Zabbix module that enhances the native host.view page by adding real-time CPU,
 
 ## Requirements
 
-- Zabbix 6.0 or higher
+- Zabbix 7.0 or higher
 - Hosts must have the following items configured:
   - `system.cpu.util` - CPU utilization
   - `system.cpu.num` - CPU cores
