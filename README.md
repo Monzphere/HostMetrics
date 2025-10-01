@@ -2,6 +2,9 @@
 
 A Zabbix module that enhances the native host.view page by adding real-time CPU, Memory, and Disk metrics directly into the host list table.
 
+<img width="1903" height="899" alt="image" src="https://github.com/user-attachments/assets/8bfcfed7-2262-4402-b530-5f96697ced55" />
+
+
 ## Features
 
 - **CPU Metrics**: Utilization percentage and number of cores
