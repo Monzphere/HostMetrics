@@ -1,0 +1,56 @@
+.host-metrics-col {
+    text-align: center !important;
+    min-width: 80px;
+    vertical-align: middle !important;
+}
+
+.host-metrics-cell {
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 8px !important;
+}
+
+.host-metric-value {
+    padding: 2px 8px;
+    border-radius: 2px;
+    font-weight: 600;
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
+}
+
+.host-metric-value.metric-ok {
+    color: #4CAF50;
+}
+
+.host-metric-value.metric-warning {
+    color: #FF9800;
+}
+
+.host-metric-value.metric-critical {
+    color: #F44336;
+}
+
+[theme="dark-theme"] .host-metric-value.metric-ok {
+    color: #66BB6A;
+}
+
+[theme="dark-theme"] .host-metric-value.metric-warning {
+    color: #FFA726;
+}
+
+[theme="dark-theme"] .host-metric-value.metric-critical {
+    color: #EF5350;
+}
+
+[theme="blue-theme"] .host-metric-value.metric-ok {
+    color: #4CAF50;
+}
+
+[theme="blue-theme"] .host-metric-value.metric-warning {
+    color: #FF9800;
+}
+
+[theme="blue-theme"] .host-metric-value.metric-critical {
+    color: #F44336;
+}

@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2.0,
+    "id": "hostmetrics",
+    "name": "Host Metrics Enhancer",
+    "version": "1.0.0",
+    "namespace": "HostMetrics",
+    "author": "Monzphere",
+    "description": "Adiciona métricas de CPU, Memória e Disco na visualização nativa de hosts",
+    "actions": {
+        "hostmetrics.data": {
+            "class": "CControllerHostMetricsData",
+            "layout": null
+        }
+    },
+    "assets": {
+        "css": ["host-metrics.css"],
+        "js": ["host-metrics.js"]
+    }
+}
